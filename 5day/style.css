@@ -1,0 +1,32 @@
+.container {
+  width: 500px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10px;
+}
+.box1 {
+  height: 65px;
+  background-color: orange;
+}
+.box2 {
+  height: 65px;
+  background-color: red;
+}
+
+.box3 {
+  height: 100px;
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.box4 {
+  height: 100px;
+  background-color: greenyellow;
+}
+
+.box5 {
+  height: 25px;
+  width: 450px;
+  background-color: orange;
+}
