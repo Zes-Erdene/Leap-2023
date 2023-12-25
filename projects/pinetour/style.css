@@ -4,7 +4,7 @@
 }
 .container {
   width: 100vw;
-  background-color: white;
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +12,8 @@
 }
 .main {
   width: 1440px;
-  height: 3330px;
+  height: auto;
+  border: 1px solid black;
 }
 .menu {
   display: flex;
@@ -80,6 +81,27 @@
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  display: none;
+}
+.choice1 {
+  width: 330px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  margin-left: 120px;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.choice1:hover {
+  background-color: black;
+  color: white;
 }
 
 .su {
@@ -105,6 +127,10 @@
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.choice2:hover {
+  background-color: black;
+  color: white;
 }
 .ab {
   width: 240px;
@@ -206,6 +232,7 @@
   flex-direction: column;
 }
 .photo {
+  /* background-image: url(./image\ 29.png); */
   width: 600px;
   height: 960px;
   margin-top: 170px;
@@ -240,6 +267,62 @@
 .luxury {
   width: 308px;
   height: 372px;
+  background-color: #ffffff;
   border: 2px solid #18ba51;
   border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.luxury-pack {
+  width: 206px;
+  height: 214px;
+}
+.starter {
+  width: 308px;
+  height: 372px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.pack {
+  width: 656px;
+  height: 373px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+.ary {
+  width: 1440px;
+  height: 183px;
+  background-color: #171717;
+  margin-top: 200px;
+}
+.last {
+  width: 1440px;
+  height: 228px;
+  background-color: #101010;
+  color: white;
+}
+.all {
+  width: 1200px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+}
+.images {
+  width: 381px;
+  width: 44px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 755px;
+  margin-top: 90px;
 }

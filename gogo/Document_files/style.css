@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.gogo-app {
+  width: 1818px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+.mobile-menu {
+  width: 746px;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+  margin-top: 25px;
+  align-items: center;
+}
+.mobile-content {
+  width: 270.52px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.nershil {
+  width: 270px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+}
+.tsasan-shirheg {
+  width: 57px;
+  height: 35px;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+}
+.huanli {
+  width: 72px;
+  height: 35px;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+}
+.dollar {
+  width: 83px;
+  height: 35px;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+}
+.temdeg {
+  width: 270px;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.gogo-header {
+  width: 1180px;
+  height: 89px;
+  display: flex;
+  flex-direction: row;
+  gap: 124px;
+}
+
+.gm1 {
+  width: 1180px;
+  height: 385px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+}
+.g {
+  width: 557.5px;
+  height: 385px;
+  background-color: white;
+}
+.secondhi {
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+}
+.story {
+  width: 1180px;
+  height: 280.5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.section-title {
+  width: 1100px;
+  height: 25.5px;
+  display: flex;
+  gap: 10px;
+}
+.story-img {
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+}
+.ukc {
+  width: 1180px;
+  height: 3294.37px;
+  margin-top: 30px;
+}
+.today {
+  width: 104px;
+  height: 27px;
+  display: flex;
+}
+.days {
+  width: 730px;
+  height: 39px;
+  display: flex;
+  gap: 20px;
+}
+.day1 {
+  width: 103.81px;
+  height: 7px;
+  background-color: #407ce8;
+  border-radius: 5px;
+}
+.day2 {
+  width: 103.81px;
+  height: 7px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.day3 {
+  width: 103.81px;
+  height: 7px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.day4 {
+  width: 103.81px;
+  height: 7px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.day5 {
+  width: 103.81px;
+  height: 7px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.day6 {
+  width: 103.81px;
+  height: 7px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.date {
+  width: 27px;
+  height: 27px;
+  background-color: #efefef;
+  padding: 1px 2px;
+}
+.news {
+  width: 690px;
+  height: 3145.37px;
+  margin-top: 40px;
+}
+.n1 {
+  width: 690px;
+  height: 150px;
+  display: flex;
+  gap: 30px;
+}
+.n1t {
+  width: 450px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

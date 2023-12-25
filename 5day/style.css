@@ -17,8 +17,6 @@
 .box3 {
   height: 100px;
   background-color: green;
-  grid-column-start: 1;
-  grid-column-end: 2;
 }
 .box4 {
   height: 100px;
