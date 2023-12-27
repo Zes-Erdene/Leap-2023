@@ -133,7 +133,55 @@
 // tsag minute second
 // let a = 3612;
 
-const music = new Audio("./project-01/sounds/crash.mp3");
-button.addEventListener("click", (event) => {
-  music.play();
-});
+// const music = new Audio("./project-01/sounds/crash.mp3");
+// button.addEventListener("click", (event) => {
+//   music.play();
+// });
+
+// Double the Numbers:
+// Input: [1, 2, 3, 4]
+// Output: [2, 4, 6, 8]
+// const numbers = [1, 2, 3, 4, 5];
+// function multiply(array) {
+//   let newArray = [];
+//   for (let i = 0; i < numbers.lenght; i++) {
+//     newArray.push.array[i] * 2;
+//   }
+//   return newArray;
+// }
+// let result = multiply(numbers);
+// console.log(result);
+
+// Filter Even Numbers:
+// Input: [1, 2, 3, 4, 5]
+// Output: [1, 3, 5]
+
+// const numbers = [1, 2, 3, 4, 5];
+// let evenNumbers = numbers.filter((el) => {
+//   return el % 2 !== 0;
+// });
+// console.log(evenNumbers);
+
+// Square and Filter:
+// Input: [1, 2, 3, 4, 5], Threshold: 10
+// Output: [1, 4, 9, 16, 25]
+// const numbers = [1, 2, 3, 4, 5];
+// let square = numbers.map((el) => {
+//   return el ** 2;
+// });
+// console.log(square);
+
+// Uppercase Strings:
+// Input: ['apple', 'banana', 'cherry']
+// Output: ['APPLE', 'BANANA', 'CHERRY']
+// const words = ["apple", "banana", "cherry"];
+// let upperCase = words.map((el) => {
+//   return el.toUpperCase();
+// });
+// console.log(upperCase);
+
+// Filter by Length:
+// Input: ['cat', 'dog', 'elephant', 'lion'], Min Length: 4
+// Output: ['elephant', 'lion']
+const animals = ["cat", "dog", "elephant", "lion"];
+let filter = animals.filter((el) => {});

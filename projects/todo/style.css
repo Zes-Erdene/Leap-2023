@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://c1.wallpaperflare.com/path/565/385/156/sunset-brook-green-meadow-june-df867360f0bed19da26bbb3838498c8f.jpg");
+  background-size: 100%;
+}
+.container {
+  width: 1320px;
+  height: 100vh;
+  display: flex;
+  margin-left: 23%;
+  margin-top: 250px;
+}
+.books {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  gap: 16px;
+  /* margin-top: 80px;
+  margin-left: 10%; */
+}
+
+.books1 {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 106.5px;
+  background-color: #ebecf0;
+  border-radius: 8px;
+}
+.books1-header {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.books2-header {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.books3-header {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.books4-header {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.detail1 {
+  font-size: 20px;
+  color: #000000;
+}
+.detail2 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.count1 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.count2 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.count3 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.count4 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.books2 {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 106.5px;
+  border-radius: 8px;
+  background-color: #ebecf0;
+}
+.books3 {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 106.5px;
+  border-radius: 8px;
+  background-color: #ebecf0;
+}
+.books4 {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 106.5px;
+  border-radius: 8px;
+  background-color: #ebecf0;
+}
+.books1-card {
+  width: 254px;
+  display: flex;
+  background-color: #ffff;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px 5px;
+  margin-left: 13px;
+}
+.books2-card {
+  width: 254px;
+  display: flex;
+  background-color: #ffff;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px 5px;
+  margin-left: 13px;
+}
+
+.card-text1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.card-text2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.card-icons1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 85px;
+  margin-top: 5px;
+  gap: 5px;
+}
+.card-icons2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 85px;
+  margin-top: 5px;
+  gap: 5px;
+}
+.mark1 {
+  margin-left: 10px;
+}
+.mark2 {
+  margin-left: 10px;
+}
+.adds1 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.adds2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.adds3 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.adds4 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
