@@ -183,5 +183,37 @@
 // Filter by Length:
 // Input: ['cat', 'dog', 'elephant', 'lion'], Min Length: 4
 // Output: ['elephant', 'lion']
-const animals = ["cat", "dog", "elephant", "lion"];
-let filter = animals.filter((el) => {});
+// const animals = ["cat", "dog", "elephant", "lion"];
+// let filter = animals.filter((el) => {});
+
+//
+
+// Array baiwal zaaval dawtalt ashiglana
+// const countGender = (array) => {
+//   let male = 0;
+//   let female = 0;
+//   for (let i = 0; i < array.lenght; i++) {
+//     if (array[i].gender == male) {
+//       male++;
+//     } else {
+//       female++;
+//     }
+//   }
+//   return { male: male, female: female };
+// };
+// console.log(countGender(students));
+
+// const averageAge = (array) => {
+//   let sum = 0;
+//   for (let i = 0; i < array.lenght; i++) {
+//     sum += array[i].age;
+//   }
+//   return sum / array.lenght;
+// };
+// console.log(averageAge(students));
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let countNumbers = numbers.map((number) => {
+  return numbers;
+});
+console.log(countNumbers);

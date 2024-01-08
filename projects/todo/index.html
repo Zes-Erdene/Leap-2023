@@ -37,7 +37,7 @@
               </div>
             </div>
           </div> -->
-          <div class="adds1">
+          <div class="adds1" onclick="">
             <div class="add1"><i class="fa-solid fa-plus"></i></div>
             <div class="add-btn1">Add card</div>
           </div>
@@ -88,6 +88,38 @@
             <div class="add-btn4">Add card</div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="dark">
+      <div class="modal">
+        <h1>Add task</h1>
+        <div class="title">
+          Title <br />
+          <input type="text" />
+        </div>
+        <div class="desc">
+          Description <br />
+          <input style="height: 100px" type="text" />
+        </div>
+        <div>
+          <label name="status">Status</label> <br />
+          <select name="status" id="status">
+            <option value="To do">To do</option>
+            <option value="In progress">In progress</option>
+            <option value="Stuck">Stuck</option>
+            <option value="Done">Done</option>
+          </select>
+        </div>
+        <div>
+          <label name="priority">Priority</label> <br />
+          <select name="priority" id="priority">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+          </select>
+        </div>
+
+        <button class="add-task" type="submit">Add task</button>
       </div>
     </div>
     <script src="./main.js"></script>
