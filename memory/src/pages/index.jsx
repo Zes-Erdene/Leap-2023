@@ -1,12 +1,12 @@
 import {
   Header,
-  About,
-  Work,
-  Footer,
-  Experience,
-  GetInTouch,
   Profile,
-  Skill,
+  About,
+  Skills,
+  Experience,
+  Work,
+  GetInTouch,
+  Footer,
 } from "@/component/layout";
 
 export default function Home() {
@@ -16,9 +16,9 @@ export default function Home() {
         <Header />
         <Profile />
         <About />
-        <Skill />
+        <Skills />
         <Experience />
-        <Work />
+        {/* <Work /> */}
         <GetInTouch />
         <Footer />
       </div>
