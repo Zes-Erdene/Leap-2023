@@ -4,6 +4,8 @@ import Technology from "@/components/Technology";
 import Trending from "@/components/Trending";
 import AllBlogPost from "@/components/AllBlogPost";
 import { Component } from "@/components/Component";
+import Blog from "@/pages/Blog";
+import Contact from "@/pages/Contact";
 
 const HomePage = () => {
   return (
