@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
-    <div className="flex justify-center pt-10 bg-white">
-      <div className="pl-30">SS</div>
+    <div className="flex justify-center items-start pt-10 bg-white fixed .sticky .top-0 w-full h-[100px] bg-opacity-30 ">
+      <div className="pl-10 font-bold">&lt;SS/&gt;</div>
       <div className="flex gap-10 pl-60">
         <p>About</p>
         <p>Work</p>
@@ -9,6 +9,7 @@ export const Header = () => {
         <p>Contact</p>
         <button>
           <svg
+            className="mb-20"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -80,7 +81,7 @@ export const Header = () => {
             />
           </svg>
         </button>
-        <button className="bg-black text-white rounded-xl w-32 h-10 mb-10">
+        <button className="bg-black text-white rounded-xl w-32 h-10 ">
           Download CV
         </button>
       </div>

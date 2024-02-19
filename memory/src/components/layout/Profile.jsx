@@ -2,14 +2,14 @@ export const Profile = () => {
   return (
     <div className="flex justify-center mt-60 bg-white">
       <div className="flex-column">
-        <h1>Hi, I'm Sagar</h1>
-        <p className="block">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque{" "}
-          <br />
-          cupiditate ab omnis dignissimos modi aperiam ea sint dolorum labore
-          <br />
-          expedita et consectetur nam sapiente eos, quae corporis fuga ipsum
-          libero.
+        <h1 className="font-bold text-6xl">Hi, I’m Sagar 👋</h1>
+        <p className="block mt-5a">
+          I'm a full stack developer (React.js & Node.js) with a focus on
+          creating (and occasionally designing) <br /> exceptional digital
+          experiences that are fast, accessible, visually appealing, and
+          responsive. Even <br />
+          though I have been creating web applications for over 7 years, I still
+          love it as if it was something new.
         </p>
         <div className="flex mt-10">
           <button className="mt-30">
