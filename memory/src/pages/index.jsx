@@ -7,18 +7,18 @@ import {
   Work,
   GetInTouch,
   Footer,
-} from "@/component/layout";
+} from "@/components/layout";
 
 export default function Home() {
   return (
-    <div className="flex justify-center">
-      <div className="container bg-blue-200">
+    <div className=" flex justify-center items-center">
+      <div className="container">
         <Header />
         <Profile />
         <About />
         <Skills />
         <Experience />
-        {/* <Work /> */}
+        <Work />
         <GetInTouch />
         <Footer />
       </div>
